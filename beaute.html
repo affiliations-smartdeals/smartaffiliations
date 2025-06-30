@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Produits de beauté tendance 2025 - Soins, maquillage, parfums | Smartaffiliations</title>
+  <meta name="description" content="Découvrez notre sélection des meilleurs produits beauté : soins du visage, maquillage, parfums et plus.">
+  <meta name="keywords" content="beauté, soins, maquillage, parfums, produits de beauté, tendances beauté">
+  <meta name="author" content="Smartaffiliations">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Produits de beauté tendance 2025 - Smartaffiliations">
+  <meta property="og:description" content="Explorez notre sélection des meilleurs produits beauté : soins, maquillage, parfums et plus.">
+  <meta property="og:image" content="https://cdn.pixabay.com/photo/affiliate-marketing-7147115_1280.png">
+  <meta property="og:url" content="https://tonsite.com/beaute.html">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Produits de beauté tendance 2025 - Smartaffiliations">
+  <meta name="twitter:description" content="Trouvez des produits de beauté tendance : soins, maquillage, parfums et accessoires.">
+  <meta name="twitter:image" content="https://cdn.pixabay.com/photo/affiliate-marketing-7147115_1280.png">
+
+  <!-- Sitemap -->
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Bannière -->
+  <section class="banner">
+    <h1>Beauté</h1>
+  </section>
+
+  <!-- Carrousel -->
+  <section class="carousel">
+    <p id="carousel-text">Découvrez les meilleurs soins, maquillages et parfums en affiliation.</p>
+  </section>
+
+  <!-- Séparateur -->
+  <div class="separator"></div>
+
+  <!-- À propos de la section Beauté -->
+  <section class="about">
+    <h2>À propos de la beauté</h2>
+    <p>
+      Découvrez nos meilleurs produits de soins, maquillage, parfums et plus encore pour révéler votre beauté naturelle.
+      Nous sélectionnons les produits les plus populaires et efficaces pour sublimer votre routine beauté au quotidien.
+    </p>
+  </section>
+
+  <!-- Séparateur -->
+  <div class="separator"></div>
+
+  <!-- Boutons de navigation -->
+  <section class="category-buttons">
+    <a href="index.html" class="btn">Accueil</a>
+    <a href="beaute.html" class="btn">Beauté</a>
+    <a href="mode.html" class="btn">Mode</a>
+    <a href="cuisine.html" class="btn">Cuisine</a>
+    <a href="maison.html" class="btn">Maison et décoration</a>
+    <a href="sport.html" class="btn">Sport et santé</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Smartaffiliations. Tous droits réservés.
+  </footer>
+
+  <!-- Script Carrousel -->
+  <script>
+    const phrases = [
+      "Découvrez les meilleurs soins, maquillages et parfums en affiliation.",
+      "Trouvez vos essentiels beauté à petit prix.",
+      "Des produits tendance et testés pour vous."
+    ];
+    let index = 0;
+    const carousel = document.getElementById('carousel-text');
+    setInterval(() => {
+      index = (index + 1) % phrases.length;
+      carousel.textContent = phrases[index];
+    }, 4000);
+  </script>
+
+</body>
+</html>

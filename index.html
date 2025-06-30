@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Smartaffiliations - Bons plans beauté, mode, maison, cuisine et sport</title>
+  <meta name="description" content="Découvrez nos sélections de produits affiliés tendance dans les domaines de la beauté, la mode, la maison, la cuisine et le sport.">
+  <meta name="keywords" content="affiliation, beauté, mode, maison, cuisine, sport, produits recommandés, bons plans">
+  <meta name="author" content="Smartaffiliations">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Smartaffiliations">
+  <meta property="og:description" content="Trouvez les meilleures sélections de produits affiliés dans chaque catégorie.">
+  <meta property="og:image" content="https://cdn.pixabay.com/photo/affiliate-marketing-7147115_1280.png">
+  <meta property="og:url" content="https://tonsite.com">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Smartaffiliations">
+  <meta name="twitter:description" content="Bons plans et produits recommandés pour la beauté, mode, maison, sport et cuisine.">
+  <meta name="twitter:image" content="https://cdn.pixabay.com/photo/affiliate-marketing-7147115_1280.png">
+
+  <!-- Sitemap -->
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Fonts et CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background: url('trucks-5423757.jpg') no-repeat center center fixed; background-size: cover;">
+
+  <!-- Bannière animée -->
+  <section class="banner">
+    <h1>Bienvenue sur Smartaffiliations</h1>
+  </section>
+
+  <!-- Carrousel -->
+  <section class="carousel">
+    <p id="carousel-text">Découvrez nos sélections de produits affiliés selon vos envies.</p>
+  </section>
+
+  <!-- Séparateur -->
+  <div class="separator"></div>
+
+  <!-- À propos -->
+  <section class="about">
+    <h2>À propos de nous</h2>
+    <p>
+      Smartaffiliations est votre plateforme de confiance dédiée à la découverte des meilleurs produits affiliés du marché. Que ce soit pour la beauté, la mode, la maison, la cuisine ou le sport, nous vous guidons vers les bons choix pour vous équiper avec style, confort et efficacité.
+    </p>
+  </section>
+
+  <!-- Séparateur -->
+  <div class="separator"></div>
+
+  <!-- Boutons de catégories -->
+  <section class="category-buttons">
+    <a href="index.html" class="btn">Accueil</a>
+    <a href="beaute.html" class="btn">Beauté</a>
+    <a href="mode.html" class="btn">Mode</a>
+    <a href="cuisine.html" class="btn">Cuisine</a>
+    <a href="maison.html" class="btn">Maison et décoration</a>
+    <a href="sport.html" class="btn">Sport et santé</a>
+  </section>
+
+  <!-- Séparateur -->
+  <div class="separator"></div>
+
+  <!-- Newsletter Monétisée -->
+  <section class="newsletter">
+    <h2>Recevez nos bons plans exclusifs !</h2>
+    <p>Inscrivez-vous à notre newsletter et recevez directement nos offres partenaires les plus avantageuses.</p>
+    <form action="https://votre-lien-affilie-ou-service-mail.com" method="post" target="_blank">
+      <input type="email" name="email" placeholder="Votre adresse email" required>
+      <button type="submit">S'inscrire</button>
+    </form>
+  </section>
+
+  <!-- Pied de page -->
+  <footer>
+    © 2025 Smartaffiliations. Tous droits réservés.
+  </footer>
+
+  <!-- Script JS pour carrousel -->
+  <script>
+    const phrases = [
+      "Découvrez nos sélections de produits affiliés selon vos envies.",
+      "Explorez les meilleures offres en beauté, mode, maison et plus encore.",
+      "Faites de chaque achat un choix intelligent avec Smartaffiliations."
+    ];
+    let index = 0;
+    const text = document.getElementById("carousel-text");
+    setInterval(() => {
+      index = (index + 1) % phrases.length;
+      text.textContent = phrases[index];
+    }, 4000);
+  </script>
+
+</body>
+</html>

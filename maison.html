@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Décoration et maison 2025 - Idées déco, rangement, ambiance | Smartaffiliations</title>
+  <meta name="description" content="Améliorez votre intérieur avec nos idées déco, meubles, rangements et accessoires pour la maison.">
+  <meta name="keywords" content="maison, décoration, meubles, accessoires, idées déco, ambiance intérieure, rangement, déco 2025">
+  <meta name="author" content="Smartaffiliations">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Décoration et maison 2025 - Smartaffiliations">
+  <meta property="og:description" content="Trouvez des idées déco, des meubles, des accessoires et des rangements pour embellir votre maison.">
+  <meta property="og:image" content="https://cdn.pixabay.com/photo/affiliate-marketing-7147115_1280.png">
+  <meta property="og:url" content="https://tonsite.com/maison.html">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Décoration et maison 2025 - Smartaffiliations">
+  <meta name="twitter:description" content="Des idées déco pour chaque pièce : meubles, éclairage, accessoires et rangements.">
+  <meta name="twitter:image" content="https://cdn.pixabay.com/photo/affiliate-marketing-7147115_1280.png">
+
+  <!-- Sitemap -->
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Bannière -->
+  <section class="banner">
+    <h1>Maison et Décoration</h1>
+  </section>
+
+  <!-- Carrousel -->
+  <section class="carousel">
+    <p id="carousel-text">Améliorez votre intérieur avec nos recommandations déco, mobilier et accessoires.</p>
+  </section>
+
+  <!-- Séparateur -->
+  <div class="separator"></div>
+
+  <!-- À propos de la section Maison -->
+  <section class="about">
+    <h2>À propos de la maison et décoration</h2>
+    <p>
+      Découvrez nos sélections de produits déco pour transformer chaque pièce de votre maison. Meubles, éclairage, accessoires, rangements… Tout pour apporter du style et du confort à votre intérieur.
+    </p>
+  </section>
+
+  <!-- Séparateur -->
+  <div class="separator"></div>
+
+  <!-- Boutons de navigation -->
+  <section class="category-buttons">
+    <a href="index.html" class="btn">Accueil</a>
+    <a href="beaute.html" class="btn">Beauté</a>
+    <a href="mode.html" class="btn">Mode</a>
+    <a href="cuisine.html" class="btn">Cuisine</a>
+    <a href="maison.html" class="btn">Maison et décoration</a>
+    <a href="sport.html" class="btn">Sport et santé</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Smartaffiliations. Tous droits réservés.
+  </footer>
+
+  <!-- Script Carrousel -->
+  <script>
+    const phrases = [
+      "Améliorez votre intérieur avec nos recommandations déco, mobilier et accessoires.",
+      "Transformez votre maison avec des meubles et des objets déco tendance.",
+      "Des idées de rangement et décoration pour chaque pièce."
+    ];
+    let index = 0;
+    const carousel = document.getElementById('carousel-text');
+    setInterval(() => {
+      index = (index + 1) % phrases.length;
+      carousel.textContent = phrases[index];
+    }, 4000);
+  </script>
+
+</body>
+</html>

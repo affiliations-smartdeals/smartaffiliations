@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Sport et bien-être - Équipements, nutrition, forme | Smartaffiliations</title>
+  <meta name="description" content="Nos recommandations pour le sport et la santé : équipements, nutrition, accessoires bien-être.">
+  <meta name="keywords" content="sport, bien-être, équipements de sport, nutrition, accessoires de fitness, santé, produits sport">
+  <meta name="author" content="Smartaffiliations">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sport et bien-être - Smartaffiliations">
+  <meta property="og:description" content="Retrouvez les meilleurs équipements pour la pratique du sport, accessoires bien-être et nutrition pour rester en forme.">
+  <meta property="og:image" content="https://cdn.pixabay.com/photo/affiliate-marketing-7147115_1280.png">
+  <meta property="og:url" content="https://tonsite.com/sport.html">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sport et bien-être - Smartaffiliations">
+  <meta name="twitter:description" content="Découvrez des équipements de sport, des compléments alimentaires et des accessoires bien-être pour un mode de vie sain.">
+  <meta name="twitter:image" content="https://cdn.pixabay.com/photo/affiliate-marketing-7147115_1280.png">
+
+  <!-- Sitemap -->
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Bannière -->
+  <section class="banner">
+    <h1>Sport et Santé</h1>
+  </section>
+
+  <!-- Carrousel -->
+  <section class="carousel">
+    <p id="carousel-text">Boostez votre forme avec notre sélection sport et bien-être.</p>
+  </section>
+
+  <!-- Séparateur -->
+  <div class="separator"></div>
+
+  <!-- À propos de la section Sport -->
+  <section class="about">
+    <h2>À propos du sport et santé</h2>
+    <p>
+      Retrouvez une large gamme d’équipements sportifs, compléments alimentaires, accessoires de fitness et produits de bien-être pour accompagner votre routine sportive et maintenir un mode de vie sain.
+    </p>
+  </section>
+
+  <!-- Séparateur -->
+  <div class="separator"></div>
+
+  <!-- Boutons de navigation -->
+  <section class="category-buttons">
+    <a href="index.html" class="btn">Accueil</a>
+    <a href="beaute.html" class="btn">Beauté</a>
+    <a href="mode.html" class="btn">Mode</a>
+    <a href="cuisine.html" class="btn">Cuisine</a>
+    <a href="maison.html" class="btn">Maison et décoration</a>
+    <a href="sport.html" class="btn">Sport et santé</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Smartaffiliations. Tous droits réservés.
+  </footer>
+
+  <!-- Script Carrousel -->
+  <script>
+    const phrases = [
+      "Boostez votre forme avec notre sélection sport et bien-être.",
+      "Des équipements et produits pour un mode de vie actif.",
+      "Prenez soin de votre corps avec les bons outils."
+    ];
+    let index = 0;
+    const carousel = document.getElementById('carousel-text');
+    setInterval(() => {
+      index = (index + 1) % phrases.length;
+      carousel.textContent = phrases[index];
+    }, 4000);
+  </script>
+
+</body>
+</html>

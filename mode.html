@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Mode femme et homme 2025 - Vêtements, accessoires, tendances | Smartaffiliations</title>
+  <meta name="description" content="Trouvez des vêtements, chaussures et accessoires tendance pour hommes et femmes dans notre sélection mode.">
+  <meta name="keywords" content="mode, vêtements, accessoires, chaussures, tendances mode, mode homme, mode femme, produits mode">
+  <meta name="author" content="Smartaffiliations">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mode femme et homme 2025 - Smartaffiliations">
+  <meta property="og:description" content="Découvrez les dernières tendances mode : vêtements, accessoires et chaussures pour tous les styles.">
+  <meta property="og:image" content="https://cdn.pixabay.com/photo/affiliate-marketing-7147115_1280.png">
+  <meta property="og:url" content="https://tonsite.com/mode.html">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Mode femme et homme 2025 - Smartaffiliations">
+  <meta name="twitter:description" content="Les meilleures pièces de mode pour homme et femme, des vêtements stylés et accessoires tendance.">
+  <meta name="twitter:image" content="https://cdn.pixabay.com/photo/affiliate-marketing-7147115_1280.png">
+
+  <!-- Sitemap -->
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Bannière -->
+  <section class="banner">
+    <h1>Mode</h1>
+  </section>
+
+  <!-- Carrousel -->
+  <section class="carousel">
+    <p id="carousel-text">Restez tendance avec nos sélections de mode affiliées.</p>
+  </section>
+
+  <!-- Séparateur -->
+  <div class="separator"></div>
+
+  <!-- À propos de la section Mode -->
+  <section class="about">
+    <h2>À propos de la mode</h2>
+    <p>
+      Parcourez notre sélection de vêtements, accessoires et chaussures pour hommes et femmes. Nous vous proposons les dernières tendances et des produits incontournables à prix abordables pour toute la famille.
+    </p>
+  </section>
+
+  <!-- Séparateur -->
+  <div class="separator"></div>
+
+  <!-- Boutons de navigation -->
+  <section class="category-buttons">
+    <a href="index.html" class="btn">Accueil</a>
+    <a href="beaute.html" class="btn">Beauté</a>
+    <a href="mode.html" class="btn">Mode</a>
+    <a href="cuisine.html" class="btn">Cuisine</a>
+    <a href="maison.html" class="btn">Maison et décoration</a>
+    <a href="sport.html" class="btn">Sport et santé</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Smartaffiliations. Tous droits réservés.
+  </footer>
+
+  <!-- Script Carrousel -->
+  <script>
+    const phrases = [
+      "Restez tendance avec nos sélections de mode affiliées.",
+      "Les meilleures pièces du moment pour votre garde-robe.",
+      "Du style pour toutes les saisons et tous les budgets."
+    ];
+    let index = 0;
+    const carousel = document.getElementById('carousel-text');
+    setInterval(() => {
+      index = (index + 1) % phrases.length;
+      carousel.textContent = phrases[index];
+    }, 4000);
+  </script>
+
+</body>
+</html>

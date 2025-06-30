@@ -1,0 +1,151 @@
+/* Style général */
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+  color: #333;
+  text-align: center;
+}
+
+/* Bannière animée */
+.banner {
+  background-color: #4caf50;
+  color: white;
+  padding: 40px 20px;
+  animation: slideIn 2s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.banner h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+/* Carrousel */
+.carousel {
+  margin-top: 20px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+/* Séparateur */
+.separator {
+  height: 4px;
+  background-color: #4caf50;
+  margin: 30px auto;
+  width: 80%;
+  border-radius: 2px;
+}
+
+/* À propos */
+.about {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.about p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+/* Boutons de catégories */
+.category-buttons {
+  margin: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 28px;
+  font-size: 30px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+/* Newsletter */
+.newsletter {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.newsletter h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.newsletter p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsletter input[type="email"] {
+  padding: 16px;
+  font-size: 30px;
+  width: 100%;
+  max-width: 600px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.newsletter button {
+  padding: 14px 28px;
+  font-size: 30px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.newsletter button:hover {
+  background-color: #45a049;
+}
+
+/* Footer */
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  font-size: 16px;
+  color: #777;
+}
