@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://tonsite.com/</loc>
+    <loc>https://medcrss2026.github.io/smartaffiliations/</loc>
   </url>
   <url>
-    <loc>https://tonsite.com/mode.html</loc>
+    <loc>https://medcrss2026.github.io/smartaffiliations/beaute.html</loc>
   </url>
   <url>
-    <loc>https://tonsite.com/cuisine.html</loc>
+    <loc>https://medcrss2026.github.io/smartaffiliations/mode.html</loc>
   </url>
   <url>
-    <loc>https://tonsite.com/maison.html</loc>
+    <loc>https://medcrss2026.github.io/smartaffiliations/cuisine.html</loc>
   </url>
   <url>
-    <loc>https://tonsite.com/sport.html</loc>
+    <loc>https://medcrss2026.github.io/smartaffiliations/maison.html</loc>
+  </url>
+  <url>
+    <loc>https://medcrss2026.github.io/smartaffiliations/sport.html</loc>
   </url>
 </urlset>
