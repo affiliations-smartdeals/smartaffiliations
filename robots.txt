@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tonsite.com/sitemap.xml
+Sitemap: https://medcrss2026.github.io/smartaffiliations/sitemap.xml
