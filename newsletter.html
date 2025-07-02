@@ -1,8 +1,9 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Inscription Newsletter</title>
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -14,9 +15,15 @@
   <main>
     <section style="text-align: center; padding: 2rem;">
       <h2>Inscris-toi à notre newsletter !</h2>
-      <form action="newsletter.php" method="POST">
-        <input type="email" name="email" placeholder="Votre adresse email" required style="padding: 0.5rem; width: 300px;" />
-        <br><br>
+      <form action="https://formspree.io/f/xrbkdzka" method="POST">
+        <input
+          type="email"
+          name="email"
+          placeholder="Votre adresse email"
+          required
+          style="padding: 0.5rem 1rem; margin: 1rem;"
+        />
+        <br />
         <button type="submit" style="padding: 0.5rem 1rem;">S'inscrire</button>
       </form>
     </section>
