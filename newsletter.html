@@ -15,7 +15,10 @@
     <section style="text-align: center; padding: 2rem;">
       <h2>Inscris-toi à notre newsletter !</h2>
 
-      <form action="https://formspree.io/f/xrbkdzka" method="POST">
+      <form 
+        action="https://formspree.io/f/xrbkdzka" 
+        method="POST"
+      >
         <input
           type="email"
           name="email"
@@ -23,9 +26,13 @@
           required
           style="padding: 0.5rem 1rem; margin: 1rem;"
         />
-        
-        <!-- Redirection automatique vers merci.html -->
-        <input type="hidden" name="_redirect" value="https://medcrss2026.github.io/smartaffiliations/merci.html" />
+
+        <!-- Redirection vers la page de remerciement -->
+        <input 
+          type="hidden" 
+          name="_redirect" 
+          value="https://medcrss2026.github.io/smartaffiliations/merci.html" 
+        />
 
         <br />
         <button type="submit" style="padding: 0.5rem 1rem;">S'inscrire</button>
@@ -38,4 +45,3 @@
   </footer>
 </body>
 </html>
-
