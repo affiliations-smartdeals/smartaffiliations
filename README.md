@@ -1,29 +1,29 @@
 # 🌐 Smartaffiliations – Offres Amazon, Shein, Supersmart & plus
 
-Bienvenue sur **Smartaffiliations**, votre site de référence pour découvrir les meilleurs **bons plans**, **produits en promotion**, et **offres d'affiliation** sur les plus grandes plateformes e-commerce :
+Bienvenue sur **Smartaffiliations**, votre plateforme de référence pour découvrir les meilleurs **bons plans**, **produits tendance** et **offres d'affiliation** sur les plus grandes plateformes e-commerce :
 
-🎯 Amazon • Shein • Supersmart • AliExpress • Temu • Zalando
+🎯 **Amazon • Shein • Supersmart • AliExpress • Temu • Zalando • Nike • H&M • Decathlon**
 
 ---
 
 ## 📚 À propos
 
-Smartaffiliations est une plateforme d'affiliation qui vous aide à **gagner du temps et de l'argent** en vous proposant des **sélections de produits tendance** dans les domaines suivants :
+Smartaffiliations est un site d’affiliation moderne conçu pour vous aider à **économiser** et **gagner de l'argent** en découvrant des **produits populaires** dans les catégories suivantes :
 
-- 💄 Beauté
-- 👗 Mode
-- 🍳 Cuisine
-- 🛋️ Maison & décoration
-- 🏋️ Sport & santé
+- 💄 Beauté (Maybelline, L'Oréal, Sephora…)
+- 👗 Mode (Shein, H&M, Zalando, Nike…)
+- 🍳 Cuisine (Tefal, Moulinex, Philips…)
+- 🛋️ Maison & décoration (IKEA, Amazon Basics…)
+- 🏋️ Sport & santé (Myprotein, Supersmart, Decathlon…)
 
-Toutes les pages sont accessibles depuis une interface simple et responsive, avec des liens affiliés mis à jour régulièrement.
+🔗 Tous les produits sont mis à jour régulièrement avec des **liens d'affiliation** sécurisés.
 
 ---
 
 ## 🔗 Accéder au site
 
-🔸 **Site en ligne** :  
-👉 [`https://affiliations-smartdeals.github.io/smartaffiliations/`](https://affiliations-smartdeals.github.io/smartaffiliations/)
+👉 **Site en ligne** :  
+[`https://affiliations-smartdeals.github.io/smartaffiliations/`](https://affiliations-smartdeals.github.io/smartaffiliations/)
 
 ---
 
@@ -38,47 +38,20 @@ Toutes les pages sont accessibles depuis une interface simple et responsive, ave
 | 🛋️ Maison           | [`maison.html`](https://affiliations-smartdeals.github.io/smartaffiliations/maison.html) |
 | 🏋️ Sport & santé    | [`sport.html`](https://affiliations-smartdeals.github.io/smartaffiliations/sport.html) |
 | ✉️ Newsletter       | [`newsletter.html`](https://affiliations-smartdeals.github.io/smartaffiliations/newsletter.html) |
-| ✅ Page de confirmation | [`merci.html`](https://affiliations-smartdeals.github.io/smartaffiliations/merci.html) |
+| ✅ Merci            | [`merci.html`](https://affiliations-smartdeals.github.io/smartaffiliations/merci.html) |
 
 ---
 
 ## 📬 Newsletter
 
-Une newsletter intégrée permet aux visiteurs de recevoir les **offres exclusives** par email via Formspree.
+Un formulaire intégré (via **Formspree**) permet aux visiteurs de recevoir des **offres exclusives** par email (bons plans, nouveautés, réductions).
 
 ---
 
-## 📈 SEO et Indexation Google
+## 📈 SEO & Indexation Google
 
-Ce site est optimisé pour le référencement Google :
+✅ Optimisé pour Google avec :
 
-- Balises `<meta>` complètes avec mots-clés populaires (Amazon, Shein, Supersmart…)
-- Fichier `robots.txt` autorisant l’indexation
-- Fichier `sitemap.xml` listant toutes les pages
-- Compatible avec [Google Search Console](https://search.google.com/search-console)
-
----
-
-## 🛠️ Technologies utilisées
-
-- HTML5 + CSS3
-- Responsive Design
-- JavaScript (carousel dynamique)
-- Formspree (newsletter)
-- GitHub Pages pour l’hébergement gratuit
-
----
-
-## ⚡ Objectif
-
-Proposer un site simple, rapide et esthétique pour diffuser vos liens d’affiliation tout en améliorant votre visibilité et vos revenus.
-
----
-
-## 📅 Dernière mise à jour
-
-🗓️ 3 juillet 2025
-
----
-
-© 2025 [Smartaffiliations](https://affiliations-smartdeals.github.io/smartaffiliations/) – Tous droits réservés.
+- Balises `<title>`, `<meta name="description">`, `<meta keywords>` avec **marques populaires**
+- Sitemaps XML pour robots de Google et autres moteurs de recherche
+- Fichier `robots.txt` configuré :
