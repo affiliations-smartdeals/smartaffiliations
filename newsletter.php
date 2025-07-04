@@ -7,6 +7,7 @@ function afficher_formulaire() {
     <!DOCTYPE html>
     <html lang="fr">
     <head>
+    <meta name="robots" content="noindex, nofollow">
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Inscription Newsletter | Smartaffiliations</title>
